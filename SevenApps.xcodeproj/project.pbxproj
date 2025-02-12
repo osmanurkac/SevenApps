@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B3A375382D5D17CF00C33981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A375192D5D17CD00C33981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A375202D5D17CD00C33981;
+			remoteInfo = SevenApps;
+		};
+		B3A375422D5D17CF00C33981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A375192D5D17CD00C33981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A375202D5D17CD00C33981;
+			remoteInfo = SevenApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3A375212D5D17CD00C33981 /* SevenApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A375372D5D17CF00C33981 /* SevenAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A375412D5D17CF00C33981 /* SevenAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B3A375492D5D17CF00C33981 /* Exceptions for "SevenApps" folder in "SevenApps" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B3A375202D5D17CD00C33981 /* SevenApps */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B3A375232D5D17CD00C33981 /* SevenApps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3A375492D5D17CF00C33981 /* Exceptions for "SevenApps" folder in "SevenApps" target */,
+			);
+			path = SevenApps;
+			sourceTree = "<group>";
+		};
+		B3A3753A2D5D17CF00C33981 /* SevenAppsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SevenAppsTests;
+			sourceTree = "<group>";
+		};
+		B3A375442D5D17CF00C33981 /* SevenAppsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SevenAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A3751E2D5D17CD00C33981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A375342D5D17CF00C33981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A3753E2D5D17CF00C33981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A375182D5D17CD00C33981 = {
+			isa = PBXGroup;
+			children = (
+				B3A375232D5D17CD00C33981 /* SevenApps */,
+				B3A3753A2D5D17CF00C33981 /* SevenAppsTests */,
+				B3A375442D5D17CF00C33981 /* SevenAppsUITests */,
+				B3A375222D5D17CD00C33981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A375222D5D17CD00C33981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A375212D5D17CD00C33981 /* SevenApps.app */,
+				B3A375372D5D17CF00C33981 /* SevenAppsTests.xctest */,
+				B3A375412D5D17CF00C33981 /* SevenAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A375202D5D17CD00C33981 /* SevenApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A3754A2D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenApps" */;
+			buildPhases = (
+				B3A3751D2D5D17CD00C33981 /* Sources */,
+				B3A3751E2D5D17CD00C33981 /* Frameworks */,
+				B3A3751F2D5D17CD00C33981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B3A375232D5D17CD00C33981 /* SevenApps */,
+			);
+			name = SevenApps;
+			packageProductDependencies = (
+			);
+			productName = SevenApps;
+			productReference = B3A375212D5D17CD00C33981 /* SevenApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3A375362D5D17CF00C33981 /* SevenAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A3754F2D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenAppsTests" */;
+			buildPhases = (
+				B3A375332D5D17CF00C33981 /* Sources */,
+				B3A375342D5D17CF00C33981 /* Frameworks */,
+				B3A375352D5D17CF00C33981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A375392D5D17CF00C33981 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B3A3753A2D5D17CF00C33981 /* SevenAppsTests */,
+			);
+			name = SevenAppsTests;
+			packageProductDependencies = (
+			);
+			productName = SevenAppsTests;
+			productReference = B3A375372D5D17CF00C33981 /* SevenAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3A375402D5D17CF00C33981 /* SevenAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A375522D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenAppsUITests" */;
+			buildPhases = (
+				B3A3753D2D5D17CF00C33981 /* Sources */,
+				B3A3753E2D5D17CF00C33981 /* Frameworks */,
+				B3A3753F2D5D17CF00C33981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A375432D5D17CF00C33981 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B3A375442D5D17CF00C33981 /* SevenAppsUITests */,
+			);
+			name = SevenAppsUITests;
+			packageProductDependencies = (
+			);
+			productName = SevenAppsUITests;
+			productReference = B3A375412D5D17CF00C33981 /* SevenAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A375192D5D17CD00C33981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B3A375202D5D17CD00C33981 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B3A375362D5D17CF00C33981 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B3A375202D5D17CD00C33981;
+					};
+					B3A375402D5D17CF00C33981 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B3A375202D5D17CD00C33981;
+					};
+				};
+			};
+			buildConfigurationList = B3A3751C2D5D17CD00C33981 /* Build configuration list for PBXProject "SevenApps" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A375182D5D17CD00C33981;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B3A375222D5D17CD00C33981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A375202D5D17CD00C33981 /* SevenApps */,
+				B3A375362D5D17CF00C33981 /* SevenAppsTests */,
+				B3A375402D5D17CF00C33981 /* SevenAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A3751F2D5D17CD00C33981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A375352D5D17CF00C33981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A3753F2D5D17CF00C33981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A3751D2D5D17CD00C33981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A375332D5D17CF00C33981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A3753D2D5D17CF00C33981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A375392D5D17CF00C33981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A375202D5D17CD00C33981 /* SevenApps */;
+			targetProxy = B3A375382D5D17CF00C33981 /* PBXContainerItemProxy */;
+		};
+		B3A375432D5D17CF00C33981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A375202D5D17CD00C33981 /* SevenApps */;
+			targetProxy = B3A375422D5D17CF00C33981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3A3754B2D5D17CF00C33981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SevenApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A3754C2D5D17CF00C33981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SevenApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3A3754D2D5D17CF00C33981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3A3754E2D5D17CF00C33981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A375502D5D17CF00C33981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SevenApps";
+			};
+			name = Debug;
+		};
+		B3A375512D5D17CF00C33981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SevenApps";
+			};
+			name = Release;
+		};
+		B3A375532D5D17CF00C33981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SevenApps;
+			};
+			name = Debug;
+		};
+		B3A375542D5D17CF00C33981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2V7FPYL8T8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urkaclabs.SevenAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SevenApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A3751C2D5D17CD00C33981 /* Build configuration list for PBXProject "SevenApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A3754D2D5D17CF00C33981 /* Debug */,
+				B3A3754E2D5D17CF00C33981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A3754A2D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A3754B2D5D17CF00C33981 /* Debug */,
+				B3A3754C2D5D17CF00C33981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A3754F2D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A375502D5D17CF00C33981 /* Debug */,
+				B3A375512D5D17CF00C33981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A375522D5D17CF00C33981 /* Build configuration list for PBXNativeTarget "SevenAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A375532D5D17CF00C33981 /* Debug */,
+				B3A375542D5D17CF00C33981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A375192D5D17CD00C33981 /* Project object */;
+}
